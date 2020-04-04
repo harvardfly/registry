@@ -4,13 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/coreos/etcd/clientv3"
 	"path"
+	"registry"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"github.com/coreos/etcd/clientv3"
-	"registry"
 )
 
 /*

@@ -1,4 +1,4 @@
-module registry
+module github.com/harvardfly/registry
 
 go 1.14
 
